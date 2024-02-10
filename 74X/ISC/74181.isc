@@ -1,0 +1,273 @@
+1 1gat inpt 4 0 >sa0 >sa1 
+2 2gat inpt 4 0 >sa0 >sa1 
+3 3gat inpt 4 0 >sa0 >sa1 
+4 4gat inpt 4 0 >sa0 >sa1 
+5 5gat inpt 3 0 >sa0 >sa1 
+6 6gat inpt 3 0 >sa0 >sa1 
+7 7gat inpt 3 0 >sa0 >sa1 
+8 8gat inpt 3 0 >sa0 >sa1 
+9 9gat inpt 3 0 >sa0 >sa1 
+10 10gat inpt 3 0 >sa0 >sa1 
+11 11gat inpt 3 0 >sa0 >sa1 
+12 12gat inpt 3 0 >sa0 >sa1 
+13 13gat inpt 1 0 >sa0 >sa1 
+14 14gat inpt 5 0 >sa0 >sa1 
+15 15fan from 5gat >sa0 >sa1
+16 16fan from 5gat >sa0 >sa1
+17 17fan from 5gat >sa0 >sa1
+18 18fan from 7gat >sa0 >sa1
+19 19fan from 7gat >sa0 >sa1
+20 20fan from 7gat >sa0 >sa1
+21 21fan from 9gat >sa0 >sa1
+22 22fan from 9gat >sa0 >sa1
+23 23fan from 9gat >sa0 >sa1
+24 24fan from 11gat >sa0 >sa1
+25 25fan from 11gat >sa0 >sa1
+26 26fan from 11gat >sa0 >sa1
+27 27gat not 10 1 >sa0 >sa1 
+	13
+28 28gat not 2 1 >sa0 >sa1 
+	16
+29 29gat not 2 1 >sa0 >sa1 
+	19
+30 30gat not 2 1 >sa0 >sa1 
+	22
+31 31gat not 2 1 >sa0 >sa1 
+	25
+32 32fan from 3gat >sa0 >sa1
+33 33fan from 3gat >sa0 >sa1
+34 34fan from 3gat >sa0 >sa1
+35 35fan from 3gat >sa0 >sa1
+36 36fan from 4gat >sa0 >sa1
+37 37fan from 4gat >sa0 >sa1
+38 38fan from 4gat >sa0 >sa1
+39 39fan from 4gat >sa0 >sa1
+40 40fan from 6gat >sa0 >sa1
+41 41fan from 6gat >sa0 >sa1
+42 42fan from 6gat >sa0 >sa1
+43 43fan from 29gat >sa0 >sa1
+44 44fan from 29gat >sa0 >sa1
+45 45fan from 8gat >sa0 >sa1
+46 46fan from 8gat >sa0 >sa1
+47 47fan from 8gat >sa0 >sa1
+48 48fan from 28gat >sa0 >sa1
+49 49fan from 28gat >sa0 >sa1
+50 50fan from 1gat >sa0 >sa1
+51 51fan from 1gat >sa0 >sa1
+52 52fan from 1gat >sa0 >sa1
+53 53fan from 1gat >sa0 >sa1
+54 54fan from 2gat >sa0 >sa1
+55 55fan from 2gat >sa0 >sa1
+56 56fan from 2gat >sa0 >sa1
+57 57fan from 2gat >sa0 >sa1
+58 58fan from 10gat >sa0 >sa1
+59 59fan from 10gat >sa0 >sa1
+60 60fan from 10gat >sa0 >sa1
+61 61fan from 31gat >sa0 >sa1
+62 62fan from 31gat >sa0 >sa1
+63 63fan from 12gat >sa0 >sa1
+64 64fan from 12gat >sa0 >sa1
+65 65fan from 12gat >sa0 >sa1
+66 66fan from 30gat >sa0 >sa1
+67 67fan from 30gat >sa0 >sa1
+68 68gat and 1 3 >sa0 >sa1 
+	15	36	40
+69 69gat and 1 3 >sa0 >sa1 
+	41	32	48
+70 70gat and 1 2 >sa0 >sa1 
+	49	54
+71 71gat and 1 2 >sa0 >sa1 
+	50	17
+72 72gat buff 1 1 >sa0 >sa1 
+	42
+73 73gat and 1 3 >sa0 >sa1 
+	18	37	45
+74 74gat and 1 3 >sa0 >sa1 
+	46	33	43
+75 75gat and 1 2 >sa0 >sa1 
+	44	55
+76 76gat and 1 2 >sa0 >sa1 
+	51	20
+77 77gat buff 1 1 >sa0 >sa1 
+	47
+78 78gat and 1 3 >sa0 >sa1 
+	21	38	58
+79 79gat and 1 3 >sa0 >sa1 
+	59	34	66
+80 80gat and 1 2 >sa0 >sa1 
+	67	56
+81 81gat and 1 2 >sa0 >sa1 
+	52	23
+82 82gat buff 1 1 >sa0 >sa1 
+	60
+83 83gat and 1 3 >sa0 >sa1 
+	24	39	63
+84 84gat and 1 3 >sa0 >sa1 
+	64	35	61
+85 85gat and 1 2 >sa0 >sa1 
+	62	57
+86 86gat and 1 2 >sa0 >sa1 
+	53	26
+87 87gat buff 1 1 >sa0 >sa1 
+	65
+88 88gat nor 6 2 >sa0 >sa1 
+	68	69
+89 89gat nor 2 3 >sa0 >sa1 
+	70	71	72
+90 90gat nor 8 2 >sa0 >sa1 
+	73	74
+91 91gat nor 3 3 >sa0 >sa1 
+	75	76	77
+92 92gat nor 8 2 >sa0 >sa1 
+	78	79
+93 93gat nor 4 3 >sa0 >sa1 
+	80	81	82
+94 94gat nor 6 2 >sa0 >sa1 
+	83	84
+95 95gat nor 5 3 >sa0 >sa1 
+	85	86	87
+96 96fan from 88gat >sa0
+97 97fan from 88gat >sa0
+98 98fan from 88gat >sa0
+99 99fan from 88gat >sa0 >sa1
+100 100fan from 88gat >sa0 >sa1
+101 101fan from 88gat >sa0 >sa1
+102 102fan from 89gat >sa0 >sa1
+103 103fan from 89gat >sa0 >sa1
+104 104fan from 90gat >sa0
+105 105fan from 90gat >sa0
+106 106fan from 90gat >sa0 >sa1
+107 107fan from 90gat >sa0 >sa1
+108 108fan from 90gat >sa0 >sa1
+109 109fan from 90gat >sa0 >sa1
+110 110fan from 90gat >sa0 >sa1
+111 111fan from 90gat >sa0 >sa1
+112 112fan from 91gat >sa0 >sa1
+113 113fan from 91gat >sa0 >sa1
+114 114fan from 91gat >sa0 >sa1
+115 115fan from 92gat >sa0
+116 116fan from 92gat >sa0 >sa1
+117 117fan from 92gat >sa0 >sa1
+118 118fan from 92gat >sa0 >sa1
+119 119fan from 92gat >sa0 >sa1
+120 120fan from 92gat >sa0 >sa1
+121 121fan from 92gat >sa0 >sa1
+122 122fan from 92gat >sa0 >sa1
+123 123fan from 93gat >sa0 >sa1
+124 124fan from 93gat >sa0 >sa1
+125 125fan from 93gat >sa0 >sa1
+126 126fan from 93gat >sa0 >sa1
+127 127fan from 94gat >sa0 >sa1
+128 128fan from 94gat >sa0 >sa1
+129 129fan from 94gat >sa0 >sa1
+130 130fan from 94gat >sa0 >sa1
+131 131fan from 94gat >sa0 >sa1
+132 132fan from 94gat >sa0 >sa1
+133 133fan from 95gat >sa0 >sa1
+134 134fan from 95gat >sa0 >sa1
+135 135fan from 95gat >sa0 >sa1
+136 136fan from 95gat >sa0 >sa1
+137 137fan from 95gat >sa0 >sa1
+138 138fan from 27gat >sa0 >sa1
+139 139fan from 27gat >sa0 >sa1
+140 140fan from 27gat >sa0 >sa1
+141 141fan from 27gat >sa0 >sa1
+142 142fan from 27gat >sa0 >sa1
+143 143fan from 27gat >sa0 >sa1
+144 144fan from 27gat >sa0 >sa1
+145 145fan from 27gat >sa0 >sa1
+146 146fan from 27gat >sa0 >sa1
+147 147fan from 27gat >sa0 >sa1
+148 148fan from 14gat >sa0 >sa1
+149 149fan from 14gat >sa0 >sa1
+150 150fan from 14gat >sa0 >sa1
+151 151fan from 14gat >sa0 >sa1
+152 152fan from 14gat >sa0 >sa1
+153 153gat buff 1 1 >sa0 >sa1 
+	102
+154 154gat and 1 2 >sa0 >sa1 
+	96	112
+155 155gat and 1 3 >sa0 >sa1 
+	97	123	104
+156 156gat and 1 4 >sa0 >sa1 
+	98	105	115	133
+157 157gat nand 1 5 >sa0 >sa1 
+	99	106	116	127	148
+158 158gat nand 1 4 >sa0 >sa1 
+	100	107	117	128
+159 159gat xor 1 2 >sa0 >sa1 
+	101	103
+160 160gat and 1 5 >sa0 >sa1 
+	149	129	118	108	138
+161 161gat and 1 4 >sa0 >sa1 
+	119	109	134	139
+162 162gat and 1 3 >sa1 
+	110	124	140
+163 163gat and 1 2 >sa0 >sa1 
+	114	141
+164 164gat xor 1 2 >sa0 >sa1 
+	111	113
+165 165gat and 1 4 >sa1 
+	150	130	120	142
+166 166gat and 1 3 >sa0 >sa1 
+	121	135	143
+167 167gat and 1 2 >sa1 
+	125	144
+168 168gat xor 1 2 >sa0 >sa1 
+	122	126
+169 169gat and 1 3 >sa0 >sa1 
+	151	131	145
+170 170gat and 1 2 >sa1 
+	136	146
+171 171gat xor 1 2 >sa0 >sa1 
+	132	137
+172 172gat nand 1 2 >sa0 >sa1 
+	152	147
+173 173gat nor 2 4 >sa0 >sa1 
+	153	154	155	156
+174 174fan from 173gat >sa0 >sa1
+175 175fan from 173gat >sa0 >sa1
+176 176gat not 1 1 >sa0 >sa1 
+	175
+177 177gat not 1 1 >sa0 >sa1 
+	157
+178 178gat nor 1 4 >sa0 >sa1 
+	160	161	162	163
+179 179gat nor 1 3 >sa0 >sa1 
+	165	166	167
+180 180gat nor 1 2 >sa0 >sa1 
+	169	170
+181 181gat or 1 2 >sa0 >sa1 
+	176	177
+182 182gat xor 2 2 >sa0 >sa1 
+	159	178
+183 183fan from 182gat >sa0 >sa1
+184 184fan from 182gat >sa0 >sa1
+185 185gat xor 2 2 >sa0 >sa1 
+	164	179
+186 186fan from 185gat >sa0 >sa1
+187 187fan from 185gat >sa0 >sa1
+188 188gat xor 2 2 >sa0 >sa1 
+	168	180
+189 189fan from 188gat >sa0 >sa1
+190 190fan from 188gat >sa0 >sa1
+191 191gat xor 2 2 >sa0 >sa1 
+	171	172
+192 192fan from 191gat >sa0 >sa1
+193 193fan from 191gat >sa0 >sa1
+194 194gat and 1 4 >sa0 >sa1 
+	184	187	189	192
+195 195gat xor 1 2 >sa0 >sa1 
+	174	181
+196 196gat xor 1 2 >sa0 >sa1 
+	158	183
+197 197gat xor 1 2 >sa0 >sa1 
+	186	194
+198 198gat xor 1 2 >sa0 >sa1 
+	190	193
+199 199gat xor 1 2 >sa0 >sa1 
+	195	196
+200 200gat xor 1 2 >sa0 >sa1 
+	197	198
+201 201gat xor 0 2 >sa0 >sa1 
+	199	200

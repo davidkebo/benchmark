@@ -1,0 +1,112 @@
+* 74L85
+*
+
+inpt 3 0 >sa0 >sa1
+inpt 3 0 >sa0 >sa1
+inpt 3 0 >sa0 >sa1
+inpt 3 0 >sa0 >sa1
+inpt 3 0 >sa0 >sa1
+inpt 3 0 >sa0 >sa1
+inpt 3 0 >sa0 >sa1
+inpt 3 0 >sa0 >sa1
+inpt 1 0 >sa0 >sa1
+inpt 1 0 >sa0 >sa1
+inpt 1 0 >sa0 >sa1
+fan 1 1 >sa0 >sa1 1
+fan 1 1 >sa0 >sa1 1
+fan 1 1 >sa0 >sa1 1
+fan 1 1 >sa0 >sa1 2
+fan 1 1 >sa0 >sa1 2
+fan 1 1 >sa0 >sa1 2
+fan 1 1 >sa0 >sa1 3
+fan 1 1 >sa0 >sa1 3
+fan 1 1 >sa0 >sa1 3
+fan 1 1 >sa0 >sa1 4
+fan 1 1 >sa0 >sa1 4
+fan 1 1 >sa0 >sa1 4
+fan 1 1 >sa0 >sa1 5
+fan 1 1 >sa0 >sa1 5
+fan 1 1 >sa0 >sa1 5
+fan 1 1 >sa0 >sa1 6
+fan 1 1 >sa0 >sa1 6
+fan 1 1 >sa0 >sa1 6
+fan 1 1 >sa0 >sa1 7
+fan 1 1 >sa0 >sa1 7
+fan 1 1 >sa0 >sa1 7
+fan 1 1 >sa0 >sa1 8
+fan 1 1 >sa0 >sa1 8
+fan 1 1 >sa0 >sa1 8
+not 2 1 >sa0 >sa1 12
+not 2 1 >sa0 >sa1 15
+not 2 1 >sa0 >sa1 18
+not 2 1 >sa0 >sa1 21
+not 2 1 >sa0 >sa1 24
+not 2 1 >sa0 >sa1 27
+not 2 1 >sa0 >sa1 30
+not 2 1 >sa0 >sa1 33
+fan 1 1 >sa0 >sa1 36
+fan 1 1 >sa0 >sa1 36
+fan 1 1 >sa0 >sa1 37
+fan 1 1 >sa0 >sa1 37
+fan 1 1 >sa0 >sa1 38
+fan 1 1 >sa0 >sa1 38
+fan 1 1 >sa0 >sa1 39
+fan 1 1 >sa0 >sa1 39
+fan 1 1 >sa0 >sa1 40
+fan 1 1 >sa0 >sa1 40
+fan 1 1 >sa0 >sa1 41
+fan 1 1 >sa0 >sa1 41
+fan 1 1 >sa0 >sa1 42
+fan 1 1 >sa0 >sa1 42
+fan 1 1 >sa0 >sa1 43
+fan 1 1 >sa0 >sa1 43
+and 1 2 >sa0 >sa1 45 17
+and 1 2 >sa0 >sa1 46 13
+and 1 2 >sa0 >sa1 49 23
+and 1 2 >sa0 >sa1 19 50
+and 1 2 >sa0 >sa1 53 28
+and 1 2 >sa0 >sa1 54 25
+and 1 2 >sa0 >sa1 57 34
+and 1 2 >sa0 >sa1 58 31
+nor 9 2 >sa0 >sa1 60 61
+nor 7 2 >sa0 >sa1 62 63
+nor 5 2 >sa0 >sa1 64 65
+nor 3 2 >sa0 >sa1 66 67
+fan 1 1 >sa0 >sa1 68
+fan 1 1 >sa0 >sa1 68
+fan 1 1 >sa0 >sa1 68
+fan 1 1 >sa0 >sa1 68
+fan 1 1 >sa0 >sa1 68
+fan 1 1 >sa0 >sa1 68
+fan 1 1 >sa0 >sa1 68
+fan 1 1 >sa0 >sa1 68
+fan 1 1 >sa0 >sa1 68
+fan 1 1 >sa0 >sa1 69
+fan 1 1 >sa0 >sa1 69
+fan 1 1 >sa0 >sa1 69
+fan 1 1 >sa0 >sa1 69
+fan 1 1 >sa0 >sa1 69
+fan 1 1 >sa0 >sa1 69
+fan 1 1 >sa0 >sa1 69
+fan 1 1 >sa0 >sa1 70
+fan 1 1 >sa0 >sa1 70
+fan 1 1 >sa0 >sa1 70
+fan 1 1 >sa0 >sa1 70
+fan 1 1 >sa0 >sa1 70
+fan 1 1 >sa0 >sa1 71
+fan 1 1 >sa0 >sa1 71
+fan 1 1 >sa0 >sa1 71
+and 1 2 >sa0 >sa1 16 44
+and 1 2 >sa0 >sa1 14 47
+and 1 3 >sa0 >sa1 22 72 48
+and 1 3 >sa0 >sa1 51 73 20
+and 1 4 >sa0 >sa1 29 74 81 52
+and 1 4 >sa0 >sa1 55 75 82 26
+and 1 5 >sa0 >sa1 35 76 83 88 56
+and 1 5 >sa0 >sa1 59 77 84 89 32
+and 1 5 >sa0 >sa1 78 85 90 93 9
+and 1 5 >sa0 >sa1 79 86 91 94 10
+and 0 5 >sa0 >sa1 80 87 92 95 11
+or 0 5 >sa0 >sa1 97 99 101 103 104
+or 0 5 >sa0 >sa1 96 98 100 102 105
+

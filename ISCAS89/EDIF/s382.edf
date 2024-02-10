@@ -1,0 +1,2504 @@
+(edif PoliTO_EDIF (edifVersion 2 0 0 ) (edifLevel 0)
+ (keywordMap (keywordLevel 0))
+ ( status
+  (written 
+   (timeStamp 1 1 1 1 1 1 )
+   (program "writedif"
+    ( Version "2.0" ))
+   (author "designer")
+  )
+ )
+ (external my_class (edifLevel 0)  (technology (numberDefinition))
+  (cell Flip_Flop_D_reset (cellType GENERIC)
+   (view Netlist_representation (viewType NETLIST )
+    (interface 
+     (port D (direction INPUT))
+     (port CK (direction INPUT))
+     (port RESET (direction INPUT))
+     (port Q (direction OUTPUT))
+    )
+   )
+  )
+  (cell And3_gate (cellType GENERIC)
+   (view Netlist_representation (viewType NETLIST )
+    (interface
+     (port I1 (direction INPUT))
+     (port I2 (direction INPUT))
+     (port I3 (direction INPUT))
+     (port O (direction OUTPUT))
+    )
+   )
+  )
+  (cell And4_gate (cellType GENERIC)
+   (view Netlist_representation (viewType NETLIST )
+    (interface
+     (port I1 (direction INPUT))
+     (port I2 (direction INPUT))
+     (port I3 (direction INPUT))
+     (port I4 (direction INPUT))
+     (port O (direction OUTPUT))
+    )
+   )
+  )
+  (cell And5_gate (cellType GENERIC)
+   (view Netlist_representation (viewType NETLIST )
+    (interface
+     (port I1 (direction INPUT))
+     (port I2 (direction INPUT))
+     (port I3 (direction INPUT))
+     (port I4 (direction INPUT))
+     (port I5 (direction INPUT))
+     (port O (direction OUTPUT))
+    )
+   )
+  )
+  (cell Nand3_gate (cellType GENERIC)
+   (view Netlist_representation (viewType NETLIST )
+    (interface
+     (port I1 (direction INPUT))
+     (port I2 (direction INPUT))
+     (port I3 (direction INPUT))
+     (port O (direction OUTPUT))
+    )
+   )
+  )
+  (cell Nand4_gate (cellType GENERIC)
+   (view Netlist_representation (viewType NETLIST )
+    (interface
+     (port I1 (direction INPUT))
+     (port I2 (direction INPUT))
+     (port I3 (direction INPUT))
+     (port I4 (direction INPUT))
+     (port O (direction OUTPUT))
+    )
+   )
+  )
+  (cell Nand5_gate (cellType GENERIC)
+   (view Netlist_representation (viewType NETLIST )
+    (interface
+     (port I1 (direction INPUT))
+     (port I2 (direction INPUT))
+     (port I3 (direction INPUT))
+     (port I4 (direction INPUT))
+     (port I5 (direction INPUT))
+     (port O (direction OUTPUT))
+    )
+   )
+  )
+  (cell Or3_gate (cellType GENERIC)
+   (view Netlist_representation (viewType NETLIST )
+    (interface
+     (port I1 (direction INPUT))
+     (port I2 (direction INPUT))
+     (port I3 (direction INPUT))
+     (port O (direction OUTPUT))
+    )
+   )
+  )
+  (cell Or4_gate (cellType GENERIC)
+   (view Netlist_representation (viewType NETLIST )
+    (interface
+     (port I1 (direction INPUT))
+     (port I2 (direction INPUT))
+     (port I3 (direction INPUT))
+     (port I4 (direction INPUT))
+     (port O (direction OUTPUT))
+    )
+   )
+  )
+  (cell Or5_gate (cellType GENERIC)
+   (view Netlist_representation (viewType NETLIST )
+    (interface
+     (port I1 (direction INPUT))
+     (port I2 (direction INPUT))
+     (port I3 (direction INPUT))
+     (port I4 (direction INPUT))
+     (port I5 (direction INPUT))
+     (port O (direction OUTPUT))
+    )
+   )
+  )
+  (cell Nor3_gate (cellType GENERIC)
+   (view Netlist_representation (viewType NETLIST )
+    (interface
+     (port I1 (direction INPUT))
+     (port I2 (direction INPUT))
+     (port I3 (direction INPUT))
+     (port O (direction OUTPUT))
+    )
+   )
+  )
+  (cell Nor4_gate (cellType GENERIC)
+   (view Netlist_representation (viewType NETLIST )
+    (interface
+     (port I1 (direction INPUT))
+     (port I2 (direction INPUT))
+     (port I3 (direction INPUT))
+     (port I4 (direction INPUT))
+     (port O (direction OUTPUT))
+    )
+   )
+  )
+  (cell Nor5_gate (cellType GENERIC)
+   (view Netlist_representation (viewType NETLIST )
+    (interface
+     (port I1 (direction INPUT))
+     (port I2 (direction INPUT))
+     (port I3 (direction INPUT))
+     (port I4 (direction INPUT))
+     (port I5 (direction INPUT))
+     (port O (direction OUTPUT))
+    )
+   )
+  )
+  (cell Exor3_gate (cellType GENERIC)
+   (view Netlist_representation (viewType NETLIST )
+    (interface
+     (port I1 (direction INPUT))
+     (port I2 (direction INPUT))
+     (port I3 (direction INPUT))
+     (port O (direction OUTPUT))
+    )
+   )
+  )
+  (cell Exor4_gate (cellType GENERIC)
+   (view Netlist_representation (viewType NETLIST )
+    (interface
+     (port I1 (direction INPUT))
+     (port I2 (direction INPUT))
+     (port I3 (direction INPUT))
+     (port I4 (direction INPUT))
+     (port O (direction OUTPUT))
+    )
+   )
+  )
+  (cell Exor5_gate (cellType GENERIC)
+   (view Netlist_representation (viewType NETLIST )
+    (interface
+     (port I1 (direction INPUT))
+     (port I2 (direction INPUT))
+     (port I3 (direction INPUT))
+     (port I4 (direction INPUT))
+     (port I5 (direction INPUT))
+     (port O (direction OUTPUT))
+    )
+   )
+  )
+  (cell Exnor3_gate (cellType GENERIC)
+   (view Netlist_representation (viewType NETLIST )
+    (interface
+     (port I1 (direction INPUT))
+     (port I2 (direction INPUT))
+     (port I3 (direction INPUT))
+     (port O (direction OUTPUT))
+    )
+   )
+  )
+  (cell Exnor4_gate (cellType GENERIC)
+   (view Netlist_representation (viewType NETLIST )
+    (interface
+     (port I1 (direction INPUT))
+     (port I2 (direction INPUT))
+     (port I3 (direction INPUT))
+     (port I4 (direction INPUT))
+     (port O (direction OUTPUT))
+    )
+   )
+  )
+  (cell Exnor5_gate (cellType GENERIC)
+   (view Netlist_representation (viewType NETLIST )
+    (interface
+     (port I1 (direction INPUT))
+     (port I2 (direction INPUT))
+     (port I3 (direction INPUT))
+     (port I4 (direction INPUT))
+     (port I5 (direction INPUT))
+     (port O (direction OUTPUT))
+    )
+   )
+  )
+  (cell And_gate (cellType GENERIC)
+   (view Netlist_representation (viewType NETLIST )
+    (interface
+     (port I1 (direction INPUT))
+     (port I2 (direction INPUT))
+     (port O (direction OUTPUT))
+    )
+   )
+  )
+  (cell Or_gate (cellType GENERIC)
+   (view Netlist_representation (viewType NETLIST )
+    (interface
+     (port I1 (direction INPUT))
+     (port I2 (direction INPUT))
+     (port O (direction OUTPUT))
+    )
+   )
+  )
+  (cell Nand_gate (cellType GENERIC)
+   (view Netlist_representation (viewType NETLIST )
+    (interface
+     (port I1 (direction INPUT))
+     (port I2 (direction INPUT))
+     (port O (direction OUTPUT))
+    )
+   )
+  )
+  (cell Nor_gate (cellType GENERIC)
+   (view Netlist_representation (viewType NETLIST )
+    (interface
+     (port I1 (direction INPUT))
+     (port I2 (direction INPUT))
+     (port O (direction OUTPUT))
+    )
+   )
+  )
+  (cell Exor_gate (cellType GENERIC)
+   (view Netlist_representation (viewType NETLIST )
+    (interface
+     (port I1 (direction INPUT))
+     (port I2 (direction INPUT))
+     (port O (direction OUTPUT))
+    )
+   )
+  )
+  (cell Exnor_gate (cellType GENERIC)
+   (view Netlist_representation (viewType NETLIST )
+    (interface
+     (port I1 (direction INPUT))
+     (port I2 (direction INPUT))
+     (port O (direction OUTPUT))
+    )
+   )
+  )
+  (cell Buf_gate (cellType GENERIC)
+   (view Netlist_representation (viewType NETLIST )
+    (interface
+     (port I1 (direction INPUT))
+     (port O (direction OUTPUT))
+    )
+   )
+  )
+  (cell Inv_gate (cellType GENERIC)
+   (view Netlist_representation (viewType NETLIST )
+    (interface
+     (port I1 (direction INPUT))
+     (port O (direction OUTPUT))
+    )
+   )
+  )
+ )
+ (library DESIGNS (edifLevel 0)
+  (technology (numberDefinition))
+  (cell s382 (cellType GENERIC)
+   (view Netlist_representation (viewType NETLIST)
+    (interface
+     (port FM (direction INPUT ))
+     (port TEST (direction INPUT ))
+     (port CLR (direction INPUT ))
+     (port CK (direction INPUT ))
+     (port RESET (direction INPUT ))
+     (port GRN1_PO (direction OUTPUT ))
+     (port GRN2_PO (direction OUTPUT ))
+     (port RED1_PO (direction OUTPUT ))
+     (port YLW2_PO (direction OUTPUT ))
+     (port RED2_PO (direction OUTPUT ))
+     (port YLW1_PO (direction OUTPUT ))
+    )
+    (contents
+     (instance TESTL
+      (viewref Netlist_representation
+       (cellRef Flip_Flop_D_reset (libraryRef my_class))
+      )
+     )
+     (instance TESTLVINLATCHVCDAD
+      (viewref Netlist_representation
+       (cellRef And_gate (libraryRef my_class))
+      )
+     )
+     (instance FML
+      (viewref Netlist_representation
+       (cellRef Flip_Flop_D_reset (libraryRef my_class))
+      )
+     )
+     (instance FMLVINLATCHVCDAD
+      (viewref Netlist_representation
+       (cellRef And_gate (libraryRef my_class))
+      )
+     )
+     (instance OLATCH_Y2L
+      (viewref Netlist_representation
+       (cellRef Flip_Flop_D_reset (libraryRef my_class))
+      )
+     )
+     (instance TCOMB_YA2
+      (viewref Netlist_representation
+       (cellRef Nor_gate (libraryRef my_class))
+      )
+     )
+     (instance OLATCHVUC_6
+      (viewref Netlist_representation
+       (cellRef Flip_Flop_D_reset (libraryRef my_class))
+      )
+     )
+     (instance Y1C
+      (viewref Netlist_representation
+       (cellRef Nor_gate (libraryRef my_class))
+      )
+     )
+     (instance OLATCHVUC_5
+      (viewref Netlist_representation
+       (cellRef Flip_Flop_D_reset (libraryRef my_class))
+      )
+     )
+     (instance R2C
+      (viewref Netlist_representation
+       (cellRef Nor_gate (libraryRef my_class))
+      )
+     )
+     (instance OLATCH_R1L
+      (viewref Netlist_representation
+       (cellRef Flip_Flop_D_reset (libraryRef my_class))
+      )
+     )
+     (instance TCOMB_RA1
+      (viewref Netlist_representation
+       (cellRef Nand3_gate (libraryRef my_class))
+      )
+     )
+     (instance OLATCH_G2L
+      (viewref Netlist_representation
+       (cellRef Flip_Flop_D_reset (libraryRef my_class))
+      )
+     )
+     (instance TCOMB_GA2
+      (viewref Netlist_representation
+       (cellRef Nor4_gate (libraryRef my_class))
+      )
+     )
+     (instance OLATCH_G1L
+      (viewref Netlist_representation
+       (cellRef Flip_Flop_D_reset (libraryRef my_class))
+      )
+     )
+     (instance TCOMB_GA1
+      (viewref Netlist_representation
+       (cellRef Nor_gate (libraryRef my_class))
+      )
+     )
+     (instance OLATCH_FEL
+      (viewref Netlist_representation
+       (cellRef Flip_Flop_D_reset (libraryRef my_class))
+      )
+     )
+     (instance TCOMB_FE_BF
+      (viewref Netlist_representation
+       (cellRef Inv_gate (libraryRef my_class))
+      )
+     )
+     (instance C3_Q3
+      (viewref Netlist_representation
+       (cellRef Flip_Flop_D_reset (libraryRef my_class))
+      )
+     )
+     (instance C3_Q3VD
+      (viewref Netlist_representation
+       (cellRef Nor3_gate (libraryRef my_class))
+      )
+     )
+     (instance C3_Q2
+      (viewref Netlist_representation
+       (cellRef Flip_Flop_D_reset (libraryRef my_class))
+      )
+     )
+     (instance C3_Q2VD
+      (viewref Netlist_representation
+       (cellRef Nor3_gate (libraryRef my_class))
+      )
+     )
+     (instance C3_Q1
+      (viewref Netlist_representation
+       (cellRef Flip_Flop_D_reset (libraryRef my_class))
+      )
+     )
+     (instance C3_Q1VD
+      (viewref Netlist_representation
+       (cellRef Nor3_gate (libraryRef my_class))
+      )
+     )
+     (instance C3_Q0
+      (viewref Netlist_representation
+       (cellRef Flip_Flop_D_reset (libraryRef my_class))
+      )
+     )
+     (instance C3_Q0VD
+      (viewref Netlist_representation
+       (cellRef Nor3_gate (libraryRef my_class))
+      )
+     )
+     (instance UC_16
+      (viewref Netlist_representation
+       (cellRef Flip_Flop_D_reset (libraryRef my_class))
+      )
+     )
+     (instance UC_16VD
+      (viewref Netlist_representation
+       (cellRef Nor3_gate (libraryRef my_class))
+      )
+     )
+     (instance UC_17
+      (viewref Netlist_representation
+       (cellRef Flip_Flop_D_reset (libraryRef my_class))
+      )
+     )
+     (instance UC_17VD
+      (viewref Netlist_representation
+       (cellRef Nor3_gate (libraryRef my_class))
+      )
+     )
+     (instance UC_18
+      (viewref Netlist_representation
+       (cellRef Flip_Flop_D_reset (libraryRef my_class))
+      )
+     )
+     (instance UC_18VD
+      (viewref Netlist_representation
+       (cellRef Nor3_gate (libraryRef my_class))
+      )
+     )
+     (instance UC_19
+      (viewref Netlist_representation
+       (cellRef Flip_Flop_D_reset (libraryRef my_class))
+      )
+     )
+     (instance UC_19VD
+      (viewref Netlist_representation
+       (cellRef Nor3_gate (libraryRef my_class))
+      )
+     )
+     (instance UC_8
+      (viewref Netlist_representation
+       (cellRef Flip_Flop_D_reset (libraryRef my_class))
+      )
+     )
+     (instance UC_8VD
+      (viewref Netlist_representation
+       (cellRef Nor3_gate (libraryRef my_class))
+      )
+     )
+     (instance UC_9
+      (viewref Netlist_representation
+       (cellRef Flip_Flop_D_reset (libraryRef my_class))
+      )
+     )
+     (instance UC_9VD
+      (viewref Netlist_representation
+       (cellRef Nor3_gate (libraryRef my_class))
+      )
+     )
+     (instance UC_10
+      (viewref Netlist_representation
+       (cellRef Flip_Flop_D_reset (libraryRef my_class))
+      )
+     )
+     (instance UC_10VD
+      (viewref Netlist_representation
+       (cellRef Nor3_gate (libraryRef my_class))
+      )
+     )
+     (instance UC_11
+      (viewref Netlist_representation
+       (cellRef Flip_Flop_D_reset (libraryRef my_class))
+      )
+     )
+     (instance UC_11VD
+      (viewref Netlist_representation
+       (cellRef Nor3_gate (libraryRef my_class))
+      )
+     )
+     (instance TESTLVINLATCHN
+      (viewref Netlist_representation
+       (cellRef Inv_gate (libraryRef my_class))
+      )
+     )
+     (instance FMLVINLATCHN
+      (viewref Netlist_representation
+       (cellRef Inv_gate (libraryRef my_class))
+      )
+     )
+     (instance OLATCH_Y1L
+      (viewref Netlist_representation
+       (cellRef Inv_gate (libraryRef my_class))
+      )
+     )
+     (instance OLATCH_R2L
+      (viewref Netlist_representation
+       (cellRef Inv_gate (libraryRef my_class))
+      )
+     )
+     (instance UC_23
+      (viewref Netlist_representation
+       (cellRef Inv_gate (libraryRef my_class))
+      )
+     )
+     (instance UC_24
+      (viewref Netlist_representation
+       (cellRef Inv_gate (libraryRef my_class))
+      )
+     )
+     (instance UC_25
+      (viewref Netlist_representation
+       (cellRef Inv_gate (libraryRef my_class))
+      )
+     )
+     (instance UC_26
+      (viewref Netlist_representation
+       (cellRef Inv_gate (libraryRef my_class))
+      )
+     )
+     (instance UC_20
+      (viewref Netlist_representation
+       (cellRef Inv_gate (libraryRef my_class))
+      )
+     )
+     (instance C2_QN2
+      (viewref Netlist_representation
+       (cellRef Inv_gate (libraryRef my_class))
+      )
+     )
+     (instance UC_21
+      (viewref Netlist_representation
+       (cellRef Inv_gate (libraryRef my_class))
+      )
+     )
+     (instance UC_22
+      (viewref Netlist_representation
+       (cellRef Inv_gate (libraryRef my_class))
+      )
+     )
+     (instance UC_12
+      (viewref Netlist_representation
+       (cellRef Inv_gate (libraryRef my_class))
+      )
+     )
+     (instance UC_13
+      (viewref Netlist_representation
+       (cellRef Inv_gate (libraryRef my_class))
+      )
+     )
+     (instance UC_14
+      (viewref Netlist_representation
+       (cellRef Inv_gate (libraryRef my_class))
+      )
+     )
+     (instance UC_15
+      (viewref Netlist_representation
+       (cellRef Inv_gate (libraryRef my_class))
+      )
+     )
+     (instance FMBVIR1
+      (viewref Netlist_representation
+       (cellRef Inv_gate (libraryRef my_class))
+      )
+     )
+     (instance CLRBVIR1
+      (viewref Netlist_representation
+       (cellRef Inv_gate (libraryRef my_class))
+      )
+     )
+     (instance TCOMBVNFM
+      (viewref Netlist_representation
+       (cellRef Inv_gate (libraryRef my_class))
+      )
+     )
+     (instance TESTBVIR1
+      (viewref Netlist_representation
+       (cellRef Inv_gate (libraryRef my_class))
+      )
+     )
+     (instance TCOMBVNQA
+      (viewref Netlist_representation
+       (cellRef Inv_gate (libraryRef my_class))
+      )
+     )
+     (instance TCOMBVNQB
+      (viewref Netlist_representation
+       (cellRef Inv_gate (libraryRef my_class))
+      )
+     )
+     (instance TCOMBVNQC
+      (viewref Netlist_representation
+       (cellRef Inv_gate (libraryRef my_class))
+      )
+     )
+     (instance TCOMBVNQD
+      (viewref Netlist_representation
+       (cellRef Inv_gate (libraryRef my_class))
+      )
+     )
+     (instance UC_11VUC_0
+      (viewref Netlist_representation
+       (cellRef Inv_gate (libraryRef my_class))
+      )
+     )
+     (instance OUTBUFVBUFG1VIR1
+      (viewref Netlist_representation
+       (cellRef Inv_gate (libraryRef my_class))
+      )
+     )
+     (instance OUTBUFVBUFG2VIR1
+      (viewref Netlist_representation
+       (cellRef Inv_gate (libraryRef my_class))
+      )
+     )
+     (instance TCOMBVNFEL
+      (viewref Netlist_representation
+       (cellRef Inv_gate (libraryRef my_class))
+      )
+     )
+     (instance OUTBUFVBUFR1VIR1
+      (viewref Netlist_representation
+       (cellRef Inv_gate (libraryRef my_class))
+      )
+     )
+     (instance OUTBUFVBUFY2VIR1
+      (viewref Netlist_representation
+       (cellRef Inv_gate (libraryRef my_class))
+      )
+     )
+     (instance FMB
+      (viewref Netlist_representation
+       (cellRef Inv_gate (libraryRef my_class))
+      )
+     )
+     (instance CLRB
+      (viewref Netlist_representation
+       (cellRef Inv_gate (libraryRef my_class))
+      )
+     )
+     (instance TESTB
+      (viewref Netlist_representation
+       (cellRef Inv_gate (libraryRef my_class))
+      )
+     )
+     (instance UC_11VZ
+      (viewref Netlist_representation
+       (cellRef Inv_gate (libraryRef my_class))
+      )
+     )
+     (instance C1VCO0
+      (viewref Netlist_representation
+       (cellRef Inv_gate (libraryRef my_class))
+      )
+     )
+     (instance GRN1
+      (viewref Netlist_representation
+       (cellRef Inv_gate (libraryRef my_class))
+      )
+     )
+     (instance GRN2
+      (viewref Netlist_representation
+       (cellRef Inv_gate (libraryRef my_class))
+      )
+     )
+     (instance RED1
+      (viewref Netlist_representation
+       (cellRef Inv_gate (libraryRef my_class))
+      )
+     )
+     (instance YLW2
+      (viewref Netlist_representation
+       (cellRef Inv_gate (libraryRef my_class))
+      )
+     )
+     (instance OUTBUFVBUFR2VIR1
+      (viewref Netlist_representation
+       (cellRef Inv_gate (libraryRef my_class))
+      )
+     )
+     (instance OUTBUFVBUFY1VIR1
+      (viewref Netlist_representation
+       (cellRef Inv_gate (libraryRef my_class))
+      )
+     )
+     (instance FMLVINMUXVIR1
+      (viewref Netlist_representation
+       (cellRef Inv_gate (libraryRef my_class))
+      )
+     )
+     (instance TESTLVINLATCHVCDN
+      (viewref Netlist_representation
+       (cellRef Inv_gate (libraryRef my_class))
+      )
+     )
+     (instance FMLVINLATCHVCDN
+      (viewref Netlist_representation
+       (cellRef Inv_gate (libraryRef my_class))
+      )
+     )
+     (instance TCOMBVNCLR
+      (viewref Netlist_representation
+       (cellRef Inv_gate (libraryRef my_class))
+      )
+     )
+     (instance TESTLVINMUXVIR1
+      (viewref Netlist_representation
+       (cellRef Inv_gate (libraryRef my_class))
+      )
+     )
+     (instance RED2
+      (viewref Netlist_representation
+       (cellRef Inv_gate (libraryRef my_class))
+      )
+     )
+     (instance YLW1
+      (viewref Netlist_representation
+       (cellRef Inv_gate (libraryRef my_class))
+      )
+     )
+     (instance C2VINHN
+      (viewref Netlist_representation
+       (cellRef Inv_gate (libraryRef my_class))
+      )
+     )
+     (instance CTST
+      (viewref Netlist_representation
+       (cellRef Nor_gate (libraryRef my_class))
+      )
+     )
+     (instance UC_8VZ
+      (viewref Netlist_representation
+       (cellRef Inv_gate (libraryRef my_class))
+      )
+     )
+     (instance UC_8VZVOR1NF
+      (viewref Netlist_representation
+       (cellRef Or_gate (libraryRef my_class))
+      )
+     )
+     (instance CO2
+      (viewref Netlist_representation
+       (cellRef Inv_gate (libraryRef my_class))
+      )
+     )
+     (instance C2_CO
+      (viewref Netlist_representation
+       (cellRef Nor3_gate (libraryRef my_class))
+      )
+     )
+     (instance FMLVINMUX
+      (viewref Netlist_representation
+       (cellRef Inv_gate (libraryRef my_class))
+      )
+     )
+     (instance FMLVINMUXVND1
+      (viewref Netlist_representation
+       (cellRef Nand_gate (libraryRef my_class))
+      )
+     )
+     (instance TESTLVINMUX
+      (viewref Netlist_representation
+       (cellRef Inv_gate (libraryRef my_class))
+      )
+     )
+     (instance TESTLVINMUXVND1
+      (viewref Netlist_representation
+       (cellRef Nand_gate (libraryRef my_class))
+      )
+     )
+     (instance I84
+      (viewref Netlist_representation
+       (cellRef Inv_gate (libraryRef my_class))
+      )
+     )
+     (instance TCOMB_FE
+      (viewref Netlist_representation
+       (cellRef Nand_gate (libraryRef my_class))
+      )
+     )
+     (instance FEN
+      (viewref Netlist_representation
+       (cellRef Inv_gate (libraryRef my_class))
+      )
+     )
+     (instance UC_16VZ
+      (viewref Netlist_representation
+       (cellRef Inv_gate (libraryRef my_class))
+      )
+     )
+     (instance UC_16VZVOR1NF
+      (viewref Netlist_representation
+       (cellRef Or_gate (libraryRef my_class))
+      )
+     )
+     (instance C3VINHN
+      (viewref Netlist_representation
+       (cellRef Inv_gate (libraryRef my_class))
+      )
+     )
+     (instance C3_Q3VZ
+      (viewref Netlist_representation
+       (cellRef Inv_gate (libraryRef my_class))
+      )
+     )
+     (instance C3_Q3VZVOR1NF
+      (viewref Netlist_representation
+       (cellRef Or_gate (libraryRef my_class))
+      )
+     )
+     (instance TCOMB_GA1VAD1NF
+      (viewref Netlist_representation
+       (cellRef And_gate (libraryRef my_class))
+      )
+     )
+     (instance TCOMBVNODE6
+      (viewref Netlist_representation
+       (cellRef Nand4_gate (libraryRef my_class))
+      )
+     )
+     (instance TCOMB_GA2VAD4NF
+      (viewref Netlist_representation
+       (cellRef And_gate (libraryRef my_class))
+      )
+     )
+     (instance TCOMB_GA2VAD3NF
+      (viewref Netlist_representation
+       (cellRef And_gate (libraryRef my_class))
+      )
+     )
+     (instance TCOMB_GA2VAD2NF
+      (viewref Netlist_representation
+       (cellRef And3_gate (libraryRef my_class))
+      )
+     )
+     (instance TCOMB_GA2VAD1NF
+      (viewref Netlist_representation
+       (cellRef And3_gate (libraryRef my_class))
+      )
+     )
+     (instance R2CVAD1NF
+      (viewref Netlist_representation
+       (cellRef And_gate (libraryRef my_class))
+      )
+     )
+     (instance Y1CVAD1NF
+      (viewref Netlist_representation
+       (cellRef And_gate (libraryRef my_class))
+      )
+     )
+     (instance TCOMB_YA1
+      (viewref Netlist_representation
+       (cellRef Nand_gate (libraryRef my_class))
+      )
+     )
+     (instance Y1CVAD2NF
+      (viewref Netlist_representation
+       (cellRef And_gate (libraryRef my_class))
+      )
+     )
+     (instance R2CVAD2NF
+      (viewref Netlist_representation
+       (cellRef And_gate (libraryRef my_class))
+      )
+     )
+     (instance TCOMB_RA2
+      (viewref Netlist_representation
+       (cellRef Nand_gate (libraryRef my_class))
+      )
+     )
+     (instance TCOMB_RA1VOR2NF
+      (viewref Netlist_representation
+       (cellRef Or3_gate (libraryRef my_class))
+      )
+     )
+     (instance TCOMBVNODE8VOR1NF
+      (viewref Netlist_representation
+       (cellRef Or3_gate (libraryRef my_class))
+      )
+     )
+     (instance TCOMB_RA1VOR1NF
+      (viewref Netlist_representation
+       (cellRef Or4_gate (libraryRef my_class))
+      )
+     )
+     (instance TCOMBVNODE8VOR2NF
+      (viewref Netlist_representation
+       (cellRef Or_gate (libraryRef my_class))
+      )
+     )
+     (instance FMLVINMUXVOR1NF
+      (viewref Netlist_representation
+       (cellRef Or_gate (libraryRef my_class))
+      )
+     )
+     (instance TCOMB_RA2VOR3NF
+      (viewref Netlist_representation
+       (cellRef Or_gate (libraryRef my_class))
+      )
+     )
+     (instance TCOMB_RA2VOR1NF
+      (viewref Netlist_representation
+       (cellRef Or4_gate (libraryRef my_class))
+      )
+     )
+     (instance TCOMBVNODE4VOR2NF
+      (viewref Netlist_representation
+       (cellRef Or3_gate (libraryRef my_class))
+      )
+     )
+     (instance TCOMBVNODE4VOR1NF
+      (viewref Netlist_representation
+       (cellRef Or4_gate (libraryRef my_class))
+      )
+     )
+     (instance TESTLVINMUXVOR1NF
+      (viewref Netlist_representation
+       (cellRef Or_gate (libraryRef my_class))
+      )
+     )
+     (instance TCOMBVNODE16VOR1NF
+      (viewref Netlist_representation
+       (cellRef Or4_gate (libraryRef my_class))
+      )
+     )
+     (instance TCOMBVNODE18
+      (viewref Netlist_representation
+       (cellRef Nand_gate (libraryRef my_class))
+      )
+     )
+     (instance C1VCO2
+      (viewref Netlist_representation
+       (cellRef Nor3_gate (libraryRef my_class))
+      )
+     )
+     (instance UC_9VZVOR1NF
+      (viewref Netlist_representation
+       (cellRef Or_gate (libraryRef my_class))
+      )
+     )
+     (instance C1VCO1
+      (viewref Netlist_representation
+       (cellRef Nor_gate (libraryRef my_class))
+      )
+     )
+     (instance UC_10VZVOR1NF
+      (viewref Netlist_representation
+       (cellRef Or_gate (libraryRef my_class))
+      )
+     )
+     (instance FMLVINMUXVOR2NF
+      (viewref Netlist_representation
+       (cellRef Or_gate (libraryRef my_class))
+      )
+     )
+     (instance TESTLVINMUXVOR2NF
+      (viewref Netlist_representation
+       (cellRef Or_gate (libraryRef my_class))
+      )
+     )
+     (instance C2VCO2
+      (viewref Netlist_representation
+       (cellRef Nor4_gate (libraryRef my_class))
+      )
+     )
+     (instance UC_17VZVOR1NF
+      (viewref Netlist_representation
+       (cellRef Or_gate (libraryRef my_class))
+      )
+     )
+     (instance C2VCO1
+      (viewref Netlist_representation
+       (cellRef Nor3_gate (libraryRef my_class))
+      )
+     )
+     (instance UC_18VZVOR1NF
+      (viewref Netlist_representation
+       (cellRef Or_gate (libraryRef my_class))
+      )
+     )
+     (instance C2VCO0
+      (viewref Netlist_representation
+       (cellRef Nor_gate (libraryRef my_class))
+      )
+     )
+     (instance UC_19VZVOR1NF
+      (viewref Netlist_representation
+       (cellRef Or_gate (libraryRef my_class))
+      )
+     )
+     (instance C3VCO2
+      (viewref Netlist_representation
+       (cellRef Nor4_gate (libraryRef my_class))
+      )
+     )
+     (instance C3_Q2VZVOR1NF
+      (viewref Netlist_representation
+       (cellRef Or_gate (libraryRef my_class))
+      )
+     )
+     (instance C3VCO1
+      (viewref Netlist_representation
+       (cellRef Nor3_gate (libraryRef my_class))
+      )
+     )
+     (instance C3_Q1VZVOR1NF
+      (viewref Netlist_representation
+       (cellRef Or_gate (libraryRef my_class))
+      )
+     )
+     (instance C3VCO0
+      (viewref Netlist_representation
+       (cellRef Nor_gate (libraryRef my_class))
+      )
+     )
+     (instance C3_Q0VZVOR1NF
+      (viewref Netlist_representation
+       (cellRef Or_gate (libraryRef my_class))
+      )
+     )
+     (instance UC_9VUC_0
+      (viewref Netlist_representation
+       (cellRef Nand_gate (libraryRef my_class))
+      )
+     )
+     (instance UC_10VUC_0
+      (viewref Netlist_representation
+       (cellRef Nand_gate (libraryRef my_class))
+      )
+     )
+     (instance TCOMBVNODE4
+      (viewref Netlist_representation
+       (cellRef Nand_gate (libraryRef my_class))
+      )
+     )
+     (instance TCOMBVNODE14
+      (viewref Netlist_representation
+       (cellRef Nand_gate (libraryRef my_class))
+      )
+     )
+     (instance TCOMBVNODE15
+      (viewref Netlist_representation
+       (cellRef Nor4_gate (libraryRef my_class))
+      )
+     )
+     (instance TCOMBVNODE12
+      (viewref Netlist_representation
+       (cellRef Nand4_gate (libraryRef my_class))
+      )
+     )
+     (instance TCOMBVNODE8
+      (viewref Netlist_representation
+       (cellRef Nand4_gate (libraryRef my_class))
+      )
+     )
+     (instance TCOMBVNODE16
+      (viewref Netlist_representation
+       (cellRef Nand_gate (libraryRef my_class))
+      )
+     )
+     (instance TCOMBVNODE19
+      (viewref Netlist_representation
+       (cellRef Nor_gate (libraryRef my_class))
+      )
+     )
+     (instance UC_9VZ
+      (viewref Netlist_representation
+       (cellRef Nand_gate (libraryRef my_class))
+      )
+     )
+     (instance UC_10VZ
+      (viewref Netlist_representation
+       (cellRef Nand_gate (libraryRef my_class))
+      )
+     )
+     (instance TCOMBVNODE3
+      (viewref Netlist_representation
+       (cellRef Nand3_gate (libraryRef my_class))
+      )
+     )
+     (instance UC_17VUC_0
+      (viewref Netlist_representation
+       (cellRef Nand_gate (libraryRef my_class))
+      )
+     )
+     (instance UC_18VUC_0
+      (viewref Netlist_representation
+       (cellRef Nand_gate (libraryRef my_class))
+      )
+     )
+     (instance UC_19VUC_0
+      (viewref Netlist_representation
+       (cellRef Nand_gate (libraryRef my_class))
+      )
+     )
+     (instance UC_17VZ
+      (viewref Netlist_representation
+       (cellRef Nand_gate (libraryRef my_class))
+      )
+     )
+     (instance UC_18VZ
+      (viewref Netlist_representation
+       (cellRef Nand_gate (libraryRef my_class))
+      )
+     )
+     (instance UC_19VZ
+      (viewref Netlist_representation
+       (cellRef Nand_gate (libraryRef my_class))
+      )
+     )
+     (instance C3_Q2VUC_0
+      (viewref Netlist_representation
+       (cellRef Nand_gate (libraryRef my_class))
+      )
+     )
+     (instance C3_Q1VUC_0
+      (viewref Netlist_representation
+       (cellRef Nand_gate (libraryRef my_class))
+      )
+     )
+     (instance C3_Q0VUC_0
+      (viewref Netlist_representation
+       (cellRef Nand_gate (libraryRef my_class))
+      )
+     )
+     (instance C3_Q2VZ
+      (viewref Netlist_representation
+       (cellRef Nand_gate (libraryRef my_class))
+      )
+     )
+     (instance C3_Q1VZ
+      (viewref Netlist_representation
+       (cellRef Nand_gate (libraryRef my_class))
+      )
+     )
+     (instance C3_Q0VZ
+      (viewref Netlist_representation
+       (cellRef Nand_gate (libraryRef my_class))
+      )
+     )
+     (instance C3VCIA
+      (viewref Netlist_representation
+       (cellRef Nor3_gate (libraryRef my_class))
+      )
+     )
+     (instance C1VCIA
+      (viewref Netlist_representation
+       (cellRef Nor3_gate (libraryRef my_class))
+      )
+     )
+     (instance C2VCIA
+      (viewref Netlist_representation
+       (cellRef Nor3_gate (libraryRef my_class))
+      )
+     )
+     (instance C1_CO
+      (viewref Netlist_representation
+       (cellRef Nor_gate (libraryRef my_class))
+      )
+     )
+     (instance UC_27
+      (viewref Netlist_representation
+       (cellRef Nor3_gate (libraryRef my_class))
+      )
+     )
+     (net FM
+      (joined 
+       (portRef FM)
+       (portRef I1 (instanceRef FMBVIR1))
+      )
+     )
+     (net TEST
+      (joined 
+       (portRef TEST)
+       (portRef I1 (instanceRef TESTBVIR1))
+      )
+     )
+     (net CLR
+      (joined 
+       (portRef CLR)
+       (portRef I1 (instanceRef CLRBVIR1))
+      )
+     )
+     (net TESTL
+      (joined
+       (portRef Q (instanceRef TESTL))
+       (portRef I1 (instanceRef TESTLVINLATCHN))
+       (portRef I2 (instanceRef TESTLVINMUXVOR1NF))
+       (portRef I2 (instanceRef CTST))
+      )
+     )
+     (net TESTLVINLATCHVCDAD
+      (joined
+       (portRef O (instanceRef TESTLVINLATCHVCDAD))
+       (portRef D (instanceRef TESTL))
+      )
+     )
+     (net FML
+      (joined
+       (portRef Q (instanceRef FML))
+       (portRef I1 (instanceRef FMLVINLATCHN))
+       (portRef I1 (instanceRef TCOMBVNFM))
+       (portRef I2 (instanceRef FMLVINMUXVOR1NF))
+       (portRef I2 (instanceRef TCOMBVNODE16VOR1NF))
+      )
+     )
+     (net FMLVINLATCHVCDAD
+      (joined
+       (portRef O (instanceRef FMLVINLATCHVCDAD))
+       (portRef D (instanceRef FML))
+      )
+     )
+     (net OLATCH_Y2L
+      (joined
+       (portRef Q (instanceRef OLATCH_Y2L))
+       (portRef I1 (instanceRef OUTBUFVBUFY2VIR1))
+      )
+     )
+     (net TCOMB_YA2
+      (joined
+       (portRef O (instanceRef TCOMB_YA2))
+       (portRef D (instanceRef OLATCH_Y2L))
+      )
+     )
+     (net OLATCHVUC_6
+      (joined
+       (portRef Q (instanceRef OLATCHVUC_6))
+       (portRef I1 (instanceRef OLATCH_Y1L))
+      )
+     )
+     (net Y1C
+      (joined
+       (portRef O (instanceRef Y1C))
+       (portRef D (instanceRef OLATCHVUC_6))
+      )
+     )
+     (net OLATCHVUC_5
+      (joined
+       (portRef Q (instanceRef OLATCHVUC_5))
+       (portRef I1 (instanceRef OLATCH_R2L))
+      )
+     )
+     (net R2C
+      (joined
+       (portRef O (instanceRef R2C))
+       (portRef D (instanceRef OLATCHVUC_5))
+      )
+     )
+     (net OLATCH_R1L
+      (joined
+       (portRef Q (instanceRef OLATCH_R1L))
+       (portRef I1 (instanceRef OUTBUFVBUFR1VIR1))
+      )
+     )
+     (net TCOMB_RA1
+      (joined
+       (portRef O (instanceRef TCOMB_RA1))
+       (portRef D (instanceRef OLATCH_R1L))
+      )
+     )
+     (net OLATCH_G2L
+      (joined
+       (portRef Q (instanceRef OLATCH_G2L))
+       (portRef I1 (instanceRef OUTBUFVBUFG2VIR1))
+      )
+     )
+     (net TCOMB_GA2
+      (joined
+       (portRef O (instanceRef TCOMB_GA2))
+       (portRef D (instanceRef OLATCH_G2L))
+      )
+     )
+     (net OLATCH_G1L
+      (joined
+       (portRef Q (instanceRef OLATCH_G1L))
+       (portRef I1 (instanceRef OUTBUFVBUFG1VIR1))
+      )
+     )
+     (net TCOMB_GA1
+      (joined
+       (portRef O (instanceRef TCOMB_GA1))
+       (portRef D (instanceRef OLATCH_G1L))
+      )
+     )
+     (net OLATCH_FEL
+      (joined
+       (portRef Q (instanceRef OLATCH_FEL))
+       (portRef I1 (instanceRef TCOMBVNFEL))
+       (portRef I2 (instanceRef TCOMB_GA1VAD1NF))
+       (portRef I1 (instanceRef TCOMB_GA2VAD4NF))
+       (portRef I3 (instanceRef TCOMB_RA1VOR2NF))
+       (portRef I4 (instanceRef TCOMB_RA1VOR1NF))
+      )
+     )
+     (net TCOMB_FE_BF
+      (joined
+       (portRef O (instanceRef TCOMB_FE_BF))
+       (portRef D (instanceRef OLATCH_FEL))
+      )
+     )
+     (net C3_Q3
+      (joined
+       (portRef Q (instanceRef C3_Q3))
+       (portRef I1 (instanceRef UC_23))
+       (portRef I1 (instanceRef TCOMBVNQD))
+       (portRef I2 (instanceRef TCOMB_GA2VAD1NF))
+       (portRef I2 (instanceRef TCOMB_RA1VOR2NF))
+       (portRef I2 (instanceRef TCOMBVNODE4VOR1NF))
+       (portRef I3 (instanceRef TCOMBVNODE16VOR1NF))
+       (portRef I2 (instanceRef C3_Q3VZVOR1NF))
+      )
+     )
+     (net C3_Q3VD
+      (joined
+       (portRef O (instanceRef C3_Q3VD))
+       (portRef D (instanceRef C3_Q3))
+      )
+     )
+     (net C3_Q2
+      (joined
+       (portRef Q (instanceRef C3_Q2))
+       (portRef I1 (instanceRef UC_24))
+       (portRef I1 (instanceRef TCOMBVNQC))
+       (portRef I1 (instanceRef TCOMB_GA2VAD3NF))
+       (portRef I1 (instanceRef TCOMB_RA1VOR2NF))
+       (portRef I3 (instanceRef TCOMB_RA1VOR1NF))
+       (portRef I1 (instanceRef TCOMBVNODE4VOR2NF))
+       (portRef I2 (instanceRef C3_Q2VZVOR1NF))
+       (portRef I2 (instanceRef TCOMBVNODE8))
+       (portRef I2 (instanceRef C3_Q2VUC_0))
+       (portRef I1 (instanceRef C3VCIA))
+      )
+     )
+     (net C3_Q2VD
+      (joined
+       (portRef O (instanceRef C3_Q2VD))
+       (portRef D (instanceRef C3_Q2))
+      )
+     )
+     (net C3_Q1
+      (joined
+       (portRef Q (instanceRef C3_Q1))
+       (portRef I1 (instanceRef UC_25))
+       (portRef I1 (instanceRef TCOMBVNQB))
+       (portRef I2 (instanceRef TCOMB_GA2VAD2NF))
+       (portRef I2 (instanceRef TCOMBVNODE8VOR1NF))
+       (portRef I2 (instanceRef TCOMB_RA1VOR1NF))
+       (portRef I2 (instanceRef TCOMB_RA2VOR1NF))
+       (portRef I2 (instanceRef C3_Q1VZVOR1NF))
+       (portRef I4 (instanceRef TCOMBVNODE12))
+       (portRef I2 (instanceRef C3_Q1VUC_0))
+       (portRef I2 (instanceRef C3VCIA))
+       (portRef I4 (instanceRef TCOMBVNODE15))
+      )
+     )
+     (net C3_Q1VD
+      (joined
+       (portRef O (instanceRef C3_Q1VD))
+       (portRef D (instanceRef C3_Q1))
+      )
+     )
+     (net C3_Q0
+      (joined
+       (portRef Q (instanceRef C3_Q0))
+       (portRef I1 (instanceRef UC_26))
+       (portRef I1 (instanceRef TCOMBVNQA))
+       (portRef I1 (instanceRef TCOMB_GA2VAD2NF))
+       (portRef I1 (instanceRef TCOMBVNODE8VOR1NF))
+       (portRef I1 (instanceRef TCOMB_RA2VOR1NF))
+       (portRef I2 (instanceRef C3_Q0VZVOR1NF))
+       (portRef I2 (instanceRef TCOMBVNODE18))
+       (portRef I4 (instanceRef TCOMBVNODE6))
+       (portRef I2 (instanceRef C3_Q0VUC_0))
+       (portRef I3 (instanceRef C3VCIA))
+      )
+     )
+     (net C3_Q0VD
+      (joined
+       (portRef O (instanceRef C3_Q0VD))
+       (portRef D (instanceRef C3_Q0))
+      )
+     )
+     (net UC_16
+      (joined
+       (portRef Q (instanceRef UC_16))
+       (portRef I1 (instanceRef UC_20))
+       (portRef I2 (instanceRef UC_16VZVOR1NF))
+      )
+     )
+     (net UC_16VD
+      (joined
+       (portRef O (instanceRef UC_16VD))
+       (portRef D (instanceRef UC_16))
+      )
+     )
+     (net UC_17
+      (joined
+       (portRef Q (instanceRef UC_17))
+       (portRef I1 (instanceRef C2_QN2))
+       (portRef I2 (instanceRef UC_17VZVOR1NF))
+       (portRef I2 (instanceRef UC_17VUC_0))
+       (portRef I1 (instanceRef C2VCIA))
+      )
+     )
+     (net UC_17VD
+      (joined
+       (portRef O (instanceRef UC_17VD))
+       (portRef D (instanceRef UC_17))
+      )
+     )
+     (net UC_18
+      (joined
+       (portRef Q (instanceRef UC_18))
+       (portRef I1 (instanceRef UC_21))
+       (portRef I2 (instanceRef UC_18VZVOR1NF))
+       (portRef I2 (instanceRef UC_18VUC_0))
+       (portRef I2 (instanceRef C2VCIA))
+      )
+     )
+     (net UC_18VD
+      (joined
+       (portRef O (instanceRef UC_18VD))
+       (portRef D (instanceRef UC_18))
+      )
+     )
+     (net UC_19
+      (joined
+       (portRef Q (instanceRef UC_19))
+       (portRef I1 (instanceRef UC_22))
+       (portRef I2 (instanceRef UC_19VZVOR1NF))
+       (portRef I2 (instanceRef UC_19VUC_0))
+       (portRef I3 (instanceRef C2VCIA))
+      )
+     )
+     (net UC_19VD
+      (joined
+       (portRef O (instanceRef UC_19VD))
+       (portRef D (instanceRef UC_19))
+      )
+     )
+     (net UC_8
+      (joined
+       (portRef Q (instanceRef UC_8))
+       (portRef I1 (instanceRef UC_12))
+       (portRef I2 (instanceRef UC_8VZVOR1NF))
+      )
+     )
+     (net UC_8VD
+      (joined
+       (portRef O (instanceRef UC_8VD))
+       (portRef D (instanceRef UC_8))
+      )
+     )
+     (net UC_9
+      (joined
+       (portRef Q (instanceRef UC_9))
+       (portRef I1 (instanceRef UC_13))
+       (portRef I2 (instanceRef UC_9VZVOR1NF))
+       (portRef I2 (instanceRef UC_9VUC_0))
+       (portRef I1 (instanceRef C1VCIA))
+      )
+     )
+     (net UC_9VD
+      (joined
+       (portRef O (instanceRef UC_9VD))
+       (portRef D (instanceRef UC_9))
+      )
+     )
+     (net UC_10
+      (joined
+       (portRef Q (instanceRef UC_10))
+       (portRef I1 (instanceRef UC_14))
+       (portRef I2 (instanceRef UC_10VZVOR1NF))
+       (portRef I2 (instanceRef UC_10VUC_0))
+       (portRef I2 (instanceRef C1VCIA))
+      )
+     )
+     (net UC_10VD
+      (joined
+       (portRef O (instanceRef UC_10VD))
+       (portRef D (instanceRef UC_10))
+      )
+     )
+     (net UC_11
+      (joined
+       (portRef Q (instanceRef UC_11))
+       (portRef I1 (instanceRef UC_15))
+       (portRef I1 (instanceRef UC_11VUC_0))
+       (portRef I3 (instanceRef C1VCIA))
+      )
+     )
+     (net UC_11VD
+      (joined
+       (portRef O (instanceRef UC_11VD))
+       (portRef D (instanceRef UC_11))
+      )
+     )
+     (net TESTLVINLATCHN
+      (joined
+       (portRef O (instanceRef TESTLVINLATCHN))
+       (portRef I2 (instanceRef TESTLVINMUXVOR2NF))
+      )
+     )
+     (net FMLVINLATCHN
+      (joined
+       (portRef O (instanceRef FMLVINLATCHN))
+       (portRef I2 (instanceRef FMLVINMUXVOR2NF))
+      )
+     )
+     (net OLATCH_Y1L
+      (joined
+       (portRef O (instanceRef OLATCH_Y1L))
+       (portRef I1 (instanceRef OUTBUFVBUFY1VIR1))
+      )
+     )
+     (net OLATCH_R2L
+      (joined
+       (portRef O (instanceRef OLATCH_R2L))
+       (portRef I1 (instanceRef OUTBUFVBUFR2VIR1))
+      )
+     )
+     (net UC_23
+      (joined
+       (portRef O (instanceRef UC_23))
+       (portRef I3 (instanceRef UC_27))
+      )
+     )
+     (net UC_24
+      (joined
+       (portRef O (instanceRef UC_24))
+       (portRef I2 (instanceRef C3VCO2))
+      )
+     )
+     (net UC_25
+      (joined
+       (portRef O (instanceRef UC_25))
+       (portRef I3 (instanceRef C3VCO2))
+       (portRef I2 (instanceRef C3VCO1))
+      )
+     )
+     (net UC_26
+      (joined
+       (portRef O (instanceRef UC_26))
+       (portRef I4 (instanceRef C3VCO2))
+       (portRef I3 (instanceRef C3VCO1))
+       (portRef I2 (instanceRef C3VCO0))
+      )
+     )
+     (net UC_20
+      (joined
+       (portRef O (instanceRef UC_20))
+       (portRef I3 (instanceRef C2_CO))
+      )
+     )
+     (net C2_QN2
+      (joined
+       (portRef O (instanceRef C2_QN2))
+       (portRef I2 (instanceRef R2CVAD1NF))
+       (portRef I2 (instanceRef Y1CVAD1NF))
+       (portRef I2 (instanceRef C2VCO2))
+      )
+     )
+     (net UC_21
+      (joined
+       (portRef O (instanceRef UC_21))
+       (portRef I3 (instanceRef C2VCO2))
+       (portRef I2 (instanceRef C2VCO1))
+      )
+     )
+     (net UC_22
+      (joined
+       (portRef O (instanceRef UC_22))
+       (portRef I4 (instanceRef C2VCO2))
+       (portRef I3 (instanceRef C2VCO1))
+       (portRef I2 (instanceRef C2VCO0))
+      )
+     )
+     (net UC_12
+      (joined
+       (portRef O (instanceRef UC_12))
+       (portRef I2 (instanceRef C1_CO))
+      )
+     )
+     (net UC_13
+      (joined
+       (portRef O (instanceRef UC_13))
+       (portRef I1 (instanceRef C1VCO2))
+      )
+     )
+     (net UC_14
+      (joined
+       (portRef O (instanceRef UC_14))
+       (portRef I2 (instanceRef C1VCO2))
+       (portRef I1 (instanceRef C1VCO1))
+      )
+     )
+     (net UC_15
+      (joined
+       (portRef O (instanceRef UC_15))
+       (portRef I1 (instanceRef C1VCO0))
+       (portRef I3 (instanceRef C1VCO2))
+       (portRef I2 (instanceRef C1VCO1))
+      )
+     )
+     (net FMBVIR1
+      (joined
+       (portRef O (instanceRef FMBVIR1))
+       (portRef I1 (instanceRef FMB))
+      )
+     )
+     (net CLRBVIR1
+      (joined
+       (portRef O (instanceRef CLRBVIR1))
+       (portRef I1 (instanceRef CLRB))
+      )
+     )
+     (net TCOMBVNFM
+      (joined
+       (portRef O (instanceRef TCOMBVNFM))
+       (portRef I3 (instanceRef TCOMBVNODE8VOR1NF))
+       (portRef I2 (instanceRef TCOMBVNODE8VOR2NF))
+       (portRef I3 (instanceRef TCOMBVNODE4VOR1NF))
+       (portRef I1 (instanceRef TCOMBVNODE6))
+       (portRef I2 (instanceRef TCOMBVNODE15))
+      )
+     )
+     (net TESTBVIR1
+      (joined
+       (portRef O (instanceRef TESTBVIR1))
+       (portRef I1 (instanceRef TESTB))
+      )
+     )
+     (net TCOMBVNQA
+      (joined
+       (portRef O (instanceRef TCOMBVNQA))
+       (portRef I1 (instanceRef TCOMB_GA2VAD1NF))
+       (portRef I1 (instanceRef TCOMB_RA1VOR1NF))
+       (portRef I2 (instanceRef TCOMBVNODE14))
+       (portRef I3 (instanceRef TCOMBVNODE3))
+       (portRef I2 (instanceRef TCOMB_YA2))
+      )
+     )
+     (net TCOMBVNQB
+      (joined
+       (portRef O (instanceRef TCOMBVNQB))
+       (portRef I1 (instanceRef TCOMBVNODE18))
+       (portRef I3 (instanceRef TCOMBVNODE6))
+       (portRef I2 (instanceRef TCOMBVNODE3))
+      )
+     )
+     (net TCOMBVNQC
+      (joined
+       (portRef O (instanceRef TCOMBVNQC))
+       (portRef I1 (instanceRef TCOMB_RA2VOR3NF))
+       (portRef I1 (instanceRef TCOMBVNODE4VOR1NF))
+       (portRef I4 (instanceRef TCOMBVNODE16VOR1NF))
+       (portRef I3 (instanceRef TCOMBVNODE12))
+       (portRef I3 (instanceRef TCOMBVNODE15))
+      )
+     )
+     (net TCOMBVNQD
+      (joined
+       (portRef O (instanceRef TCOMBVNQD))
+       (portRef I1 (instanceRef TCOMBVNODE8VOR2NF))
+       (portRef I3 (instanceRef TCOMB_RA2VOR1NF))
+       (portRef I2 (instanceRef TCOMBVNODE4VOR2NF))
+       (portRef I2 (instanceRef TCOMBVNODE6))
+      )
+     )
+     (net UC_11VUC_0
+      (joined
+       (portRef O (instanceRef UC_11VUC_0))
+       (portRef I1 (instanceRef UC_11VZ))
+      )
+     )
+     (net OUTBUFVBUFG1VIR1
+      (joined
+       (portRef O (instanceRef OUTBUFVBUFG1VIR1))
+       (portRef I1 (instanceRef GRN1))
+      )
+     )
+     (net OUTBUFVBUFG2VIR1
+      (joined
+       (portRef O (instanceRef OUTBUFVBUFG2VIR1))
+       (portRef I1 (instanceRef GRN2))
+      )
+     )
+     (net TCOMBVNFEL
+      (joined
+       (portRef O (instanceRef TCOMBVNFEL))
+       (portRef I2 (instanceRef TCOMBVNODE12))
+       (portRef I2 (instanceRef TCOMBVNODE19))
+      )
+     )
+     (net OUTBUFVBUFR1VIR1
+      (joined
+       (portRef O (instanceRef OUTBUFVBUFR1VIR1))
+       (portRef I1 (instanceRef RED1))
+      )
+     )
+     (net OUTBUFVBUFY2VIR1
+      (joined
+       (portRef O (instanceRef OUTBUFVBUFY2VIR1))
+       (portRef I1 (instanceRef YLW2))
+      )
+     )
+     (net FMB
+      (joined
+       (portRef O (instanceRef FMB))
+       (portRef I1 (instanceRef FMLVINMUXVIR1))
+       (portRef I1 (instanceRef FMLVINMUXVOR1NF))
+      )
+     )
+     (net CLRB
+      (joined
+       (portRef O (instanceRef CLRB))
+       (portRef I1 (instanceRef TESTLVINLATCHVCDN))
+       (portRef I1 (instanceRef FMLVINLATCHVCDN))
+       (portRef I1 (instanceRef TCOMBVNCLR))
+       (portRef I2 (instanceRef TCOMB_RA2VOR3NF))
+       (portRef I4 (instanceRef TCOMB_RA2VOR1NF))
+       (portRef I3 (instanceRef TCOMBVNODE4VOR2NF))
+       (portRef I4 (instanceRef TCOMBVNODE4VOR1NF))
+       (portRef I1 (instanceRef TCOMBVNODE19))
+       (portRef I1 (instanceRef TCOMBVNODE15))
+       (portRef I1 (instanceRef UC_11VD))
+       (portRef I1 (instanceRef UC_8VD))
+       (portRef I1 (instanceRef UC_9VD))
+       (portRef I1 (instanceRef UC_10VD))
+       (portRef I1 (instanceRef UC_16VD))
+       (portRef I1 (instanceRef UC_17VD))
+       (portRef I1 (instanceRef UC_18VD))
+       (portRef I1 (instanceRef UC_19VD))
+       (portRef I1 (instanceRef C3_Q3VD))
+       (portRef I1 (instanceRef C3_Q2VD))
+       (portRef I1 (instanceRef C3_Q1VD))
+       (portRef I1 (instanceRef C3_Q0VD))
+      )
+     )
+     (net TESTB
+      (joined
+       (portRef O (instanceRef TESTB))
+       (portRef I1 (instanceRef TESTLVINMUXVIR1))
+       (portRef I1 (instanceRef TESTLVINMUXVOR1NF))
+      )
+     )
+     (net UC_11VZ
+      (joined
+       (portRef O (instanceRef UC_11VZ))
+       (portRef I2 (instanceRef UC_11VD))
+      )
+     )
+     (net C1VCO0
+      (joined
+       (portRef O (instanceRef C1VCO0))
+       (portRef I1 (instanceRef UC_10VZVOR1NF))
+       (portRef I1 (instanceRef UC_10VUC_0))
+      )
+     )
+     (net GRN1_out
+      (joined 
+       (portRef GRN1_PO)
+       (portRef O (instanceRef GRN1))
+      )
+     )
+     (net GRN2_out
+      (joined 
+       (portRef GRN2_PO)
+       (portRef O (instanceRef GRN2))
+      )
+     )
+     (net RED1_out
+      (joined 
+       (portRef RED1_PO)
+       (portRef O (instanceRef RED1))
+      )
+     )
+     (net YLW2_out
+      (joined 
+       (portRef YLW2_PO)
+       (portRef O (instanceRef YLW2))
+      )
+     )
+     (net OUTBUFVBUFR2VIR1
+      (joined
+       (portRef O (instanceRef OUTBUFVBUFR2VIR1))
+       (portRef I1 (instanceRef RED2))
+      )
+     )
+     (net OUTBUFVBUFY1VIR1
+      (joined
+       (portRef O (instanceRef OUTBUFVBUFY1VIR1))
+       (portRef I1 (instanceRef YLW1))
+      )
+     )
+     (net FMLVINMUXVIR1
+      (joined
+       (portRef O (instanceRef FMLVINMUXVIR1))
+       (portRef I1 (instanceRef FMLVINMUXVOR2NF))
+      )
+     )
+     (net TESTLVINLATCHVCDN
+      (joined
+       (portRef O (instanceRef TESTLVINLATCHVCDN))
+       (portRef I1 (instanceRef TESTLVINLATCHVCDAD))
+      )
+     )
+     (net FMLVINLATCHVCDN
+      (joined
+       (portRef O (instanceRef FMLVINLATCHVCDN))
+       (portRef I1 (instanceRef FMLVINLATCHVCDAD))
+      )
+     )
+     (net TCOMBVNCLR
+      (joined
+       (portRef O (instanceRef TCOMBVNCLR))
+       (portRef I2 (instanceRef TCOMB_GA2VAD4NF))
+       (portRef I2 (instanceRef TCOMB_GA2VAD3NF))
+       (portRef I3 (instanceRef TCOMB_GA2VAD2NF))
+       (portRef I3 (instanceRef TCOMB_GA2VAD1NF))
+       (portRef I1 (instanceRef TCOMBVNODE12))
+       (portRef I1 (instanceRef TCOMBVNODE8))
+       (portRef I1 (instanceRef TCOMB_RA1))
+      )
+     )
+     (net TESTLVINMUXVIR1
+      (joined
+       (portRef O (instanceRef TESTLVINMUXVIR1))
+       (portRef I1 (instanceRef TESTLVINMUXVOR2NF))
+      )
+     )
+     (net RED2_out
+      (joined 
+       (portRef RED2_PO)
+       (portRef O (instanceRef RED2))
+      )
+     )
+     (net YLW1_out
+      (joined 
+       (portRef YLW1_PO)
+       (portRef O (instanceRef YLW1))
+      )
+     )
+     (net C2VINHN
+      (joined
+       (portRef O (instanceRef C2VINHN))
+       (portRef I1 (instanceRef UC_19VZVOR1NF))
+       (portRef I1 (instanceRef UC_19VUC_0))
+      )
+     )
+     (net CTST
+      (joined
+       (portRef O (instanceRef CTST))
+       (portRef I1 (instanceRef C2VINHN))
+       (portRef I1 (instanceRef C2VCO2))
+       (portRef I1 (instanceRef C2VCO1))
+       (portRef I2 (instanceRef C2_CO))
+       (portRef I1 (instanceRef C2VCO0))
+      )
+     )
+     (net UC_8VZ
+      (joined
+       (portRef O (instanceRef UC_8VZ))
+       (portRef I2 (instanceRef UC_8VD))
+      )
+     )
+     (net UC_8VZVOR1NF
+      (joined
+       (portRef O (instanceRef UC_8VZVOR1NF))
+       (portRef I1 (instanceRef UC_8VZ))
+      )
+     )
+     (net CO2
+      (joined
+       (portRef O (instanceRef CO2))
+       (portRef I1 (instanceRef C3VINHN))
+       (portRef I1 (instanceRef C3VCO2))
+       (portRef I1 (instanceRef C3VCO1))
+       (portRef I2 (instanceRef UC_27))
+       (portRef I1 (instanceRef C3VCO0))
+      )
+     )
+     (net C2_CO
+      (joined
+       (portRef O (instanceRef C2_CO))
+       (portRef I1 (instanceRef CO2))
+       (portRef I3 (instanceRef UC_16VD))
+       (portRef I3 (instanceRef UC_17VD))
+       (portRef I3 (instanceRef UC_18VD))
+       (portRef I3 (instanceRef UC_19VD))
+      )
+     )
+     (net FMLVINMUX
+      (joined
+       (portRef O (instanceRef FMLVINMUX))
+       (portRef I2 (instanceRef FMLVINLATCHVCDAD))
+      )
+     )
+     (net FMLVINMUXVND1
+      (joined
+       (portRef O (instanceRef FMLVINMUXVND1))
+       (portRef I1 (instanceRef FMLVINMUX))
+      )
+     )
+     (net TESTLVINMUX
+      (joined
+       (portRef O (instanceRef TESTLVINMUX))
+       (portRef I2 (instanceRef TESTLVINLATCHVCDAD))
+      )
+     )
+     (net TESTLVINMUXVND1
+      (joined
+       (portRef O (instanceRef TESTLVINMUXVND1))
+       (portRef I1 (instanceRef TESTLVINMUX))
+      )
+     )
+     (net I84
+      (joined
+       (portRef O (instanceRef I84))
+       (portRef I1 (instanceRef TCOMB_FE_BF))
+      )
+     )
+     (net TCOMB_FE
+      (joined
+       (portRef O (instanceRef TCOMB_FE))
+       (portRef I1 (instanceRef I84))
+       (portRef I1 (instanceRef FEN))
+       (portRef I1 (instanceRef R2CVAD1NF))
+      )
+     )
+     (net FEN
+      (joined
+       (portRef O (instanceRef FEN))
+       (portRef I1 (instanceRef Y1CVAD2NF))
+       (portRef I1 (instanceRef R2CVAD2NF))
+      )
+     )
+     (net UC_16VZ
+      (joined
+       (portRef O (instanceRef UC_16VZ))
+       (portRef I2 (instanceRef UC_16VD))
+      )
+     )
+     (net UC_16VZVOR1NF
+      (joined
+       (portRef O (instanceRef UC_16VZVOR1NF))
+       (portRef I1 (instanceRef UC_16VZ))
+      )
+     )
+     (net C3VINHN
+      (joined
+       (portRef O (instanceRef C3VINHN))
+       (portRef I1 (instanceRef C3_Q0VZVOR1NF))
+       (portRef I1 (instanceRef C3_Q0VUC_0))
+      )
+     )
+     (net C3_Q3VZ
+      (joined
+       (portRef O (instanceRef C3_Q3VZ))
+       (portRef I2 (instanceRef C3_Q3VD))
+      )
+     )
+     (net C3_Q3VZVOR1NF
+      (joined
+       (portRef O (instanceRef C3_Q3VZVOR1NF))
+       (portRef I1 (instanceRef C3_Q3VZ))
+      )
+     )
+     (net TCOMB_GA1VAD1NF
+      (joined
+       (portRef O (instanceRef TCOMB_GA1VAD1NF))
+       (portRef I2 (instanceRef TCOMB_GA1))
+      )
+     )
+     (net TCOMBVNODE6
+      (joined
+       (portRef O (instanceRef TCOMBVNODE6))
+       (portRef I1 (instanceRef TCOMB_GA1VAD1NF))
+      )
+     )
+     (net TCOMB_GA2VAD4NF
+      (joined
+       (portRef O (instanceRef TCOMB_GA2VAD4NF))
+       (portRef I1 (instanceRef TCOMB_GA2))
+      )
+     )
+     (net TCOMB_GA2VAD3NF
+      (joined
+       (portRef O (instanceRef TCOMB_GA2VAD3NF))
+       (portRef I2 (instanceRef TCOMB_GA2))
+      )
+     )
+     (net TCOMB_GA2VAD2NF
+      (joined
+       (portRef O (instanceRef TCOMB_GA2VAD2NF))
+       (portRef I3 (instanceRef TCOMB_GA2))
+      )
+     )
+     (net TCOMB_GA2VAD1NF
+      (joined
+       (portRef O (instanceRef TCOMB_GA2VAD1NF))
+       (portRef I4 (instanceRef TCOMB_GA2))
+      )
+     )
+     (net R2CVAD1NF
+      (joined
+       (portRef O (instanceRef R2CVAD1NF))
+       (portRef I2 (instanceRef R2C))
+      )
+     )
+     (net Y1CVAD1NF
+      (joined
+       (portRef O (instanceRef Y1CVAD1NF))
+       (portRef I2 (instanceRef Y1C))
+      )
+     )
+     (net TCOMB_YA1
+      (joined
+       (portRef O (instanceRef TCOMB_YA1))
+       (portRef I1 (instanceRef Y1CVAD1NF))
+       (portRef I2 (instanceRef Y1CVAD2NF))
+      )
+     )
+     (net Y1CVAD2NF
+      (joined
+       (portRef O (instanceRef Y1CVAD2NF))
+       (portRef I1 (instanceRef Y1C))
+      )
+     )
+     (net R2CVAD2NF
+      (joined
+       (portRef O (instanceRef R2CVAD2NF))
+       (portRef I1 (instanceRef R2C))
+      )
+     )
+     (net TCOMB_RA2
+      (joined
+       (portRef O (instanceRef TCOMB_RA2))
+       (portRef I2 (instanceRef R2CVAD2NF))
+      )
+     )
+     (net TCOMB_RA1VOR2NF
+      (joined
+       (portRef O (instanceRef TCOMB_RA1VOR2NF))
+       (portRef I2 (instanceRef TCOMB_RA1))
+      )
+     )
+     (net TCOMBVNODE8VOR1NF
+      (joined
+       (portRef O (instanceRef TCOMBVNODE8VOR1NF))
+       (portRef I4 (instanceRef TCOMBVNODE8))
+      )
+     )
+     (net TCOMB_RA1VOR1NF
+      (joined
+       (portRef O (instanceRef TCOMB_RA1VOR1NF))
+       (portRef I3 (instanceRef TCOMB_RA1))
+      )
+     )
+     (net TCOMBVNODE8VOR2NF
+      (joined
+       (portRef O (instanceRef TCOMBVNODE8VOR2NF))
+       (portRef I3 (instanceRef TCOMBVNODE8))
+      )
+     )
+     (net FMLVINMUXVOR1NF
+      (joined
+       (portRef O (instanceRef FMLVINMUXVOR1NF))
+       (portRef I2 (instanceRef FMLVINMUXVND1))
+      )
+     )
+     (net TCOMB_RA2VOR3NF
+      (joined
+       (portRef O (instanceRef TCOMB_RA2VOR3NF))
+       (portRef I1 (instanceRef TCOMB_RA2))
+      )
+     )
+     (net TCOMB_RA2VOR1NF
+      (joined
+       (portRef O (instanceRef TCOMB_RA2VOR1NF))
+       (portRef I2 (instanceRef TCOMB_RA2))
+      )
+     )
+     (net TCOMBVNODE4VOR2NF
+      (joined
+       (portRef O (instanceRef TCOMBVNODE4VOR2NF))
+       (portRef I1 (instanceRef TCOMBVNODE4))
+      )
+     )
+     (net TCOMBVNODE4VOR1NF
+      (joined
+       (portRef O (instanceRef TCOMBVNODE4VOR1NF))
+       (portRef I2 (instanceRef TCOMBVNODE4))
+      )
+     )
+     (net TESTLVINMUXVOR1NF
+      (joined
+       (portRef O (instanceRef TESTLVINMUXVOR1NF))
+       (portRef I2 (instanceRef TESTLVINMUXVND1))
+      )
+     )
+     (net TCOMBVNODE16VOR1NF
+      (joined
+       (portRef O (instanceRef TCOMBVNODE16VOR1NF))
+       (portRef I2 (instanceRef TCOMBVNODE16))
+      )
+     )
+     (net TCOMBVNODE18
+      (joined
+       (portRef O (instanceRef TCOMBVNODE18))
+       (portRef I1 (instanceRef TCOMBVNODE16VOR1NF))
+      )
+     )
+     (net C1VCO2
+      (joined
+       (portRef O (instanceRef C1VCO2))
+       (portRef I1 (instanceRef UC_8VZVOR1NF))
+      )
+     )
+     (net UC_9VZVOR1NF
+      (joined
+       (portRef O (instanceRef UC_9VZVOR1NF))
+       (portRef I1 (instanceRef UC_9VZ))
+      )
+     )
+     (net C1VCO1
+      (joined
+       (portRef O (instanceRef C1VCO1))
+       (portRef I1 (instanceRef UC_9VZVOR1NF))
+       (portRef I1 (instanceRef UC_9VUC_0))
+      )
+     )
+     (net UC_10VZVOR1NF
+      (joined
+       (portRef O (instanceRef UC_10VZVOR1NF))
+       (portRef I1 (instanceRef UC_10VZ))
+      )
+     )
+     (net FMLVINMUXVOR2NF
+      (joined
+       (portRef O (instanceRef FMLVINMUXVOR2NF))
+       (portRef I1 (instanceRef FMLVINMUXVND1))
+      )
+     )
+     (net TESTLVINMUXVOR2NF
+      (joined
+       (portRef O (instanceRef TESTLVINMUXVOR2NF))
+       (portRef I1 (instanceRef TESTLVINMUXVND1))
+      )
+     )
+     (net C2VCO2
+      (joined
+       (portRef O (instanceRef C2VCO2))
+       (portRef I1 (instanceRef UC_16VZVOR1NF))
+      )
+     )
+     (net UC_17VZVOR1NF
+      (joined
+       (portRef O (instanceRef UC_17VZVOR1NF))
+       (portRef I1 (instanceRef UC_17VZ))
+      )
+     )
+     (net C2VCO1
+      (joined
+       (portRef O (instanceRef C2VCO1))
+       (portRef I1 (instanceRef UC_17VZVOR1NF))
+       (portRef I1 (instanceRef UC_17VUC_0))
+      )
+     )
+     (net UC_18VZVOR1NF
+      (joined
+       (portRef O (instanceRef UC_18VZVOR1NF))
+       (portRef I1 (instanceRef UC_18VZ))
+      )
+     )
+     (net C2VCO0
+      (joined
+       (portRef O (instanceRef C2VCO0))
+       (portRef I1 (instanceRef UC_18VZVOR1NF))
+       (portRef I1 (instanceRef UC_18VUC_0))
+      )
+     )
+     (net UC_19VZVOR1NF
+      (joined
+       (portRef O (instanceRef UC_19VZVOR1NF))
+       (portRef I1 (instanceRef UC_19VZ))
+      )
+     )
+     (net C3VCO2
+      (joined
+       (portRef O (instanceRef C3VCO2))
+       (portRef I1 (instanceRef C3_Q3VZVOR1NF))
+      )
+     )
+     (net C3_Q2VZVOR1NF
+      (joined
+       (portRef O (instanceRef C3_Q2VZVOR1NF))
+       (portRef I1 (instanceRef C3_Q2VZ))
+      )
+     )
+     (net C3VCO1
+      (joined
+       (portRef O (instanceRef C3VCO1))
+       (portRef I1 (instanceRef C3_Q2VZVOR1NF))
+       (portRef I1 (instanceRef C3_Q2VUC_0))
+      )
+     )
+     (net C3_Q1VZVOR1NF
+      (joined
+       (portRef O (instanceRef C3_Q1VZVOR1NF))
+       (portRef I1 (instanceRef C3_Q1VZ))
+      )
+     )
+     (net C3VCO0
+      (joined
+       (portRef O (instanceRef C3VCO0))
+       (portRef I1 (instanceRef C3_Q1VZVOR1NF))
+       (portRef I1 (instanceRef C3_Q1VUC_0))
+      )
+     )
+     (net C3_Q0VZVOR1NF
+      (joined
+       (portRef O (instanceRef C3_Q0VZVOR1NF))
+       (portRef I1 (instanceRef C3_Q0VZ))
+      )
+     )
+     (net UC_9VUC_0
+      (joined
+       (portRef O (instanceRef UC_9VUC_0))
+       (portRef I2 (instanceRef UC_9VZ))
+      )
+     )
+     (net UC_10VUC_0
+      (joined
+       (portRef O (instanceRef UC_10VUC_0))
+       (portRef I2 (instanceRef UC_10VZ))
+      )
+     )
+     (net TCOMBVNODE4
+      (joined
+       (portRef O (instanceRef TCOMBVNODE4))
+       (portRef I1 (instanceRef TCOMBVNODE3))
+      )
+     )
+     (net TCOMBVNODE14
+      (joined
+       (portRef O (instanceRef TCOMBVNODE14))
+       (portRef I2 (instanceRef TCOMB_FE))
+      )
+     )
+     (net TCOMBVNODE15
+      (joined
+       (portRef O (instanceRef TCOMBVNODE15))
+       (portRef I1 (instanceRef TCOMBVNODE14))
+      )
+     )
+     (net TCOMBVNODE12
+      (joined
+       (portRef O (instanceRef TCOMBVNODE12))
+       (portRef I1 (instanceRef TCOMB_YA2))
+      )
+     )
+     (net TCOMBVNODE8
+      (joined
+       (portRef O (instanceRef TCOMBVNODE8))
+       (portRef I1 (instanceRef TCOMB_GA1))
+      )
+     )
+     (net TCOMBVNODE16
+      (joined
+       (portRef O (instanceRef TCOMBVNODE16))
+       (portRef I1 (instanceRef TCOMB_FE))
+       (portRef I1 (instanceRef TCOMB_YA1))
+      )
+     )
+     (net TCOMBVNODE19
+      (joined
+       (portRef O (instanceRef TCOMBVNODE19))
+       (portRef I1 (instanceRef TCOMBVNODE16))
+      )
+     )
+     (net UC_9VZ
+      (joined
+       (portRef O (instanceRef UC_9VZ))
+       (portRef I2 (instanceRef UC_9VD))
+      )
+     )
+     (net UC_10VZ
+      (joined
+       (portRef O (instanceRef UC_10VZ))
+       (portRef I2 (instanceRef UC_10VD))
+      )
+     )
+     (net TCOMBVNODE3
+      (joined
+       (portRef O (instanceRef TCOMBVNODE3))
+       (portRef I2 (instanceRef TCOMB_YA1))
+      )
+     )
+     (net UC_17VUC_0
+      (joined
+       (portRef O (instanceRef UC_17VUC_0))
+       (portRef I2 (instanceRef UC_17VZ))
+      )
+     )
+     (net UC_18VUC_0
+      (joined
+       (portRef O (instanceRef UC_18VUC_0))
+       (portRef I2 (instanceRef UC_18VZ))
+      )
+     )
+     (net UC_19VUC_0
+      (joined
+       (portRef O (instanceRef UC_19VUC_0))
+       (portRef I2 (instanceRef UC_19VZ))
+      )
+     )
+     (net UC_17VZ
+      (joined
+       (portRef O (instanceRef UC_17VZ))
+       (portRef I2 (instanceRef UC_17VD))
+      )
+     )
+     (net UC_18VZ
+      (joined
+       (portRef O (instanceRef UC_18VZ))
+       (portRef I2 (instanceRef UC_18VD))
+      )
+     )
+     (net UC_19VZ
+      (joined
+       (portRef O (instanceRef UC_19VZ))
+       (portRef I2 (instanceRef UC_19VD))
+      )
+     )
+     (net C3_Q2VUC_0
+      (joined
+       (portRef O (instanceRef C3_Q2VUC_0))
+       (portRef I2 (instanceRef C3_Q2VZ))
+      )
+     )
+     (net C3_Q1VUC_0
+      (joined
+       (portRef O (instanceRef C3_Q1VUC_0))
+       (portRef I2 (instanceRef C3_Q1VZ))
+      )
+     )
+     (net C3_Q0VUC_0
+      (joined
+       (portRef O (instanceRef C3_Q0VUC_0))
+       (portRef I2 (instanceRef C3_Q0VZ))
+      )
+     )
+     (net C3_Q2VZ
+      (joined
+       (portRef O (instanceRef C3_Q2VZ))
+       (portRef I2 (instanceRef C3_Q2VD))
+      )
+     )
+     (net C3_Q1VZ
+      (joined
+       (portRef O (instanceRef C3_Q1VZ))
+       (portRef I2 (instanceRef C3_Q1VD))
+      )
+     )
+     (net C3_Q0VZ
+      (joined
+       (portRef O (instanceRef C3_Q0VZ))
+       (portRef I2 (instanceRef C3_Q0VD))
+      )
+     )
+     (net C3VCIA
+      (joined
+       (portRef O (instanceRef C3VCIA))
+       (portRef I1 (instanceRef UC_27))
+      )
+     )
+     (net C1VCIA
+      (joined
+       (portRef O (instanceRef C1VCIA))
+       (portRef I1 (instanceRef C1_CO))
+      )
+     )
+     (net C2VCIA
+      (joined
+       (portRef O (instanceRef C2VCIA))
+       (portRef I1 (instanceRef C2_CO))
+      )
+     )
+     (net C1_CO
+      (joined
+       (portRef O (instanceRef C1_CO))
+       (portRef I1 (instanceRef CTST))
+       (portRef I3 (instanceRef UC_11VD))
+       (portRef I3 (instanceRef UC_8VD))
+       (portRef I3 (instanceRef UC_9VD))
+       (portRef I3 (instanceRef UC_10VD))
+      )
+     )
+     (net UC_27
+      (joined
+       (portRef O (instanceRef UC_27))
+       (portRef I3 (instanceRef C3_Q3VD))
+       (portRef I3 (instanceRef C3_Q2VD))
+       (portRef I3 (instanceRef C3_Q1VD))
+       (portRef I3 (instanceRef C3_Q0VD))
+      )
+     )
+     (net CK
+      (joined 
+       (portRef CK)
+       (portRef CK (instanceRef TESTL))
+       (portRef CK (instanceRef FML))
+       (portRef CK (instanceRef OLATCH_Y2L))
+       (portRef CK (instanceRef OLATCHVUC_6))
+       (portRef CK (instanceRef OLATCHVUC_5))
+       (portRef CK (instanceRef OLATCH_R1L))
+       (portRef CK (instanceRef OLATCH_G2L))
+       (portRef CK (instanceRef OLATCH_G1L))
+       (portRef CK (instanceRef OLATCH_FEL))
+       (portRef CK (instanceRef C3_Q3))
+       (portRef CK (instanceRef C3_Q2))
+       (portRef CK (instanceRef C3_Q1))
+       (portRef CK (instanceRef C3_Q0))
+       (portRef CK (instanceRef UC_16))
+       (portRef CK (instanceRef UC_17))
+       (portRef CK (instanceRef UC_18))
+       (portRef CK (instanceRef UC_19))
+       (portRef CK (instanceRef UC_8))
+       (portRef CK (instanceRef UC_9))
+       (portRef CK (instanceRef UC_10))
+       (portRef CK (instanceRef UC_11))
+      )
+     )
+     (net RESET
+      (joined 
+       (portRef RESET)
+       (portRef RESET (instanceRef TESTL))
+       (portRef RESET (instanceRef FML))
+       (portRef RESET (instanceRef OLATCH_Y2L))
+       (portRef RESET (instanceRef OLATCHVUC_6))
+       (portRef RESET (instanceRef OLATCHVUC_5))
+       (portRef RESET (instanceRef OLATCH_R1L))
+       (portRef RESET (instanceRef OLATCH_G2L))
+       (portRef RESET (instanceRef OLATCH_G1L))
+       (portRef RESET (instanceRef OLATCH_FEL))
+       (portRef RESET (instanceRef C3_Q3))
+       (portRef RESET (instanceRef C3_Q2))
+       (portRef RESET (instanceRef C3_Q1))
+       (portRef RESET (instanceRef C3_Q0))
+       (portRef RESET (instanceRef UC_16))
+       (portRef RESET (instanceRef UC_17))
+       (portRef RESET (instanceRef UC_18))
+       (portRef RESET (instanceRef UC_19))
+       (portRef RESET (instanceRef UC_8))
+       (portRef RESET (instanceRef UC_9))
+       (portRef RESET (instanceRef UC_10))
+       (portRef RESET (instanceRef UC_11))
+      )
+     )
+    )
+   )
+  )
+ )
+ (design PoliTO_EDIF(cellRef s382 (libraryRef DESIGNS)))
+)
